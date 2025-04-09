@@ -12,15 +12,23 @@
 
 from fastapi import FastAPI
 # Importand CORS middleware to allow requests from the frontend because it will be on different port
-from fastapi.middlewares.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 
 # Imported Pydantic for creating data model
-from Pydantic import BaseModel
+from pydantic import BaseModel
 
 # Imported random library to generate random numbers
 import random
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class LotteryNumbers(BaseModel):
     numbers: list[int]

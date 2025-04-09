@@ -21,6 +21,7 @@ Backend:
 - Started with adding goals in comment section. Created FastAPI app.
 - Added the generate numbers endpoint.
 - Added future possible scenarios as comments in app.py
+- Run the backend with uvicorn app:app --reload and test the endpoint over http://127.0.0.1:8000/docs
 
 ## STEP 3: FRONTEND
 
