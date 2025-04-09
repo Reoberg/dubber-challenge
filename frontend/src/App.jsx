@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-// Lets make colorful balls related to the number of balls in the array so I will check the values and asign a color to each ball
+// Checker added to make colorful balls related to the number of balls in the array so I will check the values and asign a color to each ball
 const checkColor = (value) => {
   if (value < 10) {
     return 'bg-red-500'
@@ -65,4 +65,11 @@ export default function App() {
   )
 }
 
+// IN FUTURE 
+// I can add a aanimation to the balls when they are generated
+// I can add a loader to the button when it is clicked
+// I can add a sound when the button is clicked
+// I can add a sound when the balls are generated
+// I can add routing system and diffent pages like Login, Register, Lottery History, etc
+// And I can containerize the app with Docker and move to Kubernetes or deploy in AWS EC2 
 

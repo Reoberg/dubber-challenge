@@ -25,8 +25,11 @@ Backend:
 
 ## STEP 3: FRONTEND
 - I will keep it simple so I am planning to center the lottery balls, a title and bonus ball in the one division which will cover screen height and generate button to generate balls.
--
--
--
+- HTML part added, styling addded with tailwindcss.
+- Generator is working now.
+- Test the frontend with: npm run dev
 
 ## STEP 4: FUTURE PLANS
+- I mentioned about them mostly in the comments of scripts. If I had more time I would add, sound, animations to balls, routing system, user system. On the other hand, at backend side we could add more endpoints to keep history of the lotteries, authentication systems, user systems, database connections, saving lotteries to database etc.
+- I could write a dockerfiles to containerize the apps.
+- Could create YAML files for kubernetes deployments.
