@@ -18,5 +18,11 @@ Backend:
 - Installed tailwindcss to give a basic good look. Source: https://tailwindcss.com/docs/installation/using-vite
 
 ## STEP 2: BACKEND
+- Started with adding goals in comment section. Created FastAPI app.
+- Added the generate numbers endpoint.
+- Added future possible scenarios as comments in app.py
 
 ## STEP 3: FRONTEND
+
+
+## STEP 4: FUTURE PLANS
