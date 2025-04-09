@@ -24,6 +24,9 @@ Backend:
 - Run the backend with uvicorn app:app --reload and test the endpoint over http://127.0.0.1:8000/docs
 
 ## STEP 3: FRONTEND
-
+- I will keep it simple so I am planning to center the lottery balls, a title and bonus ball in the one division which will cover screen height and generate button to generate balls.
+-
+-
+-
 
 ## STEP 4: FUTURE PLANS
